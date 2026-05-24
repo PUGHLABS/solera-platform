@@ -1,0 +1,32 @@
+export const communities = [
+  {
+    id: 'aspen-grove',
+    name: 'Aspen Grove',
+    type: 'Assisted + memory',
+    units: 84,
+    residents: 78,
+    manager: 'K. Tanaka',
+    occupancy: 96.4,
+    alarmCounts: { critical: 1, warning: 2 },
+  },
+  {
+    id: 'birch-hollow',
+    name: 'Birch Hollow',
+    type: 'Independent living',
+    units: 120,
+    residents: 108,
+    manager: 'D. Owens',
+    occupancy: 90.0,
+    alarmCounts: { critical: 1, warning: 1 },
+  },
+  {
+    id: 'cedar-pines',
+    name: 'Cedar Pines',
+    type: 'Assisted living',
+    units: 72,
+    residents: 64,
+    manager: 'P. Singh',
+    occupancy: 88.9,
+    alarmCounts: { critical: 0, warning: 2 },
+  },
+]
