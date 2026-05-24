@@ -4,8 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Solera ops command</title>
-    <script type="module" crossorigin src="/solera-platform/assets/index-C1MpDFIt.js"></script>
-    <link rel="stylesheet" crossorigin href="/solera-platform/assets/index-CHqge8KS.css">
+    <script>
+      try {
+        const t = localStorage.getItem('theme') ||
+          (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark')
+        document.documentElement.setAttribute('data-theme', t)
+      } catch(e) {}
+    </script>
+    <script type="module" crossorigin src="/solera-platform/assets/index-4UZXdO6p.js"></script>
+    <link rel="stylesheet" crossorigin href="/solera-platform/assets/index-BjJVMiU3.css">
   </head>
   <body>
     <div id="root"></div>
