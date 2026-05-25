@@ -1,6 +1,6 @@
 # Solera ops platform — wireframe prototype
 
-A working-prototype scaffold of a senior living operations command center, built as a portfolio artifact for the Director of AI-Enabled Operations interview.
+A working-prototype scaffold of a senior living operations command center, built as a portfolio artifact for the Director of AI-Enabled Operations.
 
 ## What's here
 
